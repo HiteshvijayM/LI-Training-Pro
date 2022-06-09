@@ -15,7 +15,7 @@ public class Loops {
 		}
 
 		System.out.println("\n \n For Loop  \n");
-		for (int x = 10; x < 20; x = x + 1) {
+		for (int x = 10; x < 30; x = x + 1) {
 			System.out.print("value of x : " + x);
 			System.out.print("\n");
 		}
