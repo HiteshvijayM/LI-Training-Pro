@@ -13,9 +13,9 @@ public class Quiz {
     catch (Exception e) {
         System.out.println("exception");
     }
-    catch (ArithmeticException e1){
-        System.out.println("arithematic caught");
-    }
+    // catch (ArithmeticException e1){
+    //     System.out.println("arithematic caught");
+    // }
 
     finally{
         System.out.println("finally");
