@@ -1,6 +1,6 @@
 package Junit;
-import java.util.Arrays;
-import java.util.Collection;
+// import java.util.Arrays;
+// import java.util.Collection;
  
 import org.junit.Test;
 import org.junit.Before;
@@ -29,16 +29,16 @@ public class PrimeNumberRunner {
       this.expectedResult = expectedResult;
    }
 
-   @Parameterized.Parameters
-   public static Collection primeNumbers() {
-      return Arrays.asList(new Object[][] {
-         { 2, true },
-         { 6, false },
-         { 19, true },
-         { 22, false },
-         { 23, true }
-      });
-   }
+   // @Parameterized.Parameters
+   // public static Collection primeNumbers() {
+   //    return Arrays.asList(new Object[][] {
+   //       { 2, true },
+   //       { 6, false },
+   //       { 19, true },
+   //       { 22, false },
+   //       { 23, true }
+   //    });
+   // }
 
    // This test will run 4 times since we have 5 parameters defined
    @Test
